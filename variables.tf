@@ -34,5 +34,5 @@ variable "machine_type" {
 variable "cloud_init_file" {
   description = "The path to the cloud-init file for the VM."
   type        = string
-  default     = "ansible-ready.yaml"
+  default     = "ansible-ready"
 }
