@@ -3,18 +3,25 @@
 
 Terraform Module to deploy predefined compute-engines (VMs) on STACKIT
 
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.0 |
+| <a name="requirement_stackit"></a> [stackit](#requirement\_stackit) | 0.55.0 |
+
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_stackit"></a> [stackit](#provider\_stackit) | n/a |
+| <a name="provider_stackit"></a> [stackit](#provider\_stackit) | 0.55.0 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| [stackit_key_pair.keypair](https://registry.terraform.io/providers/hashicorp/stackit/latest/docs/resources/key_pair) | resource |
-| [stackit_server.node](https://registry.terraform.io/providers/hashicorp/stackit/latest/docs/resources/server) | resource |
+| [stackit_key_pair.keypair](https://registry.terraform.io/providers/stackitcloud/stackit/0.55.0/docs/resources/key_pair) | resource |
+| [stackit_server.node](https://registry.terraform.io/providers/stackitcloud/stackit/0.55.0/docs/resources/server) | resource |
 
 ## Inputs
 
