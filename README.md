@@ -27,7 +27,7 @@ Terraform Module to deploy predefined compute-engines (VMs) on STACKIT
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_cloud_init_file"></a> [cloud\_init\_file](#input\_cloud\_init\_file) | The path to the cloud-init file for the VM. | `string` | `"ansible-ready.yaml"` | no |
+| <a name="input_cloud_init_file"></a> [cloud\_init\_file](#input\_cloud\_init\_file) | The path to the cloud-init file for the VM. | `string` | `"ansible-ready"` | no |
 | <a name="input_image_id"></a> [image\_id](#input\_image\_id) | The ID of the image to use for the VM. | `string` | `"d1151962-f2cd-45e6-9c67-185c5055c7e0"` | no |
 | <a name="input_machine_type"></a> [machine\_type](#input\_machine\_type) | The machine type for the VM. | `string` | `"t1.1"` | no |
 | <a name="input_project_id"></a> [project\_id](#input\_project\_id) | The ID of the Stackit project where the RabbitMQ instance will be created. | `string` | n/a | yes |
